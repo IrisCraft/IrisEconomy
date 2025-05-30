@@ -1,6 +1,6 @@
 Economy System für Citybuild Netzwerke etc.
 Das System verfügt auch über eine API welche die Nutzung durch andere Plugins vereinfacht.
-
+[![](https://jitpack.io/v/IrisCraft/IrisEconomy.svg)](https://jitpack.io/#IrisCraft/IrisEconomy)
 
 
 Copyright © 2025 IrisCraft Servernetzwerk
