@@ -1,0 +1,14 @@
+name: IrisEconomy
+version: '1.0'
+main: de.iriscraft.irisEconomy.IrisEconomy
+api-version: '1.21'
+author: IrisCraft
+
+commands:
+  eco:
+    description: Economy administration commands.
+    usage: /<command> [set|add|remove|reload] [player] [amount]
+
+  money:
+    description: Check player balance.
+    usage: /<command> [player]

@@ -1,0 +1,16 @@
+# src/main/resources/config.yml
+# MySQL Database Configuration
+database:
+  host: localhost
+  port: 3306
+  database: minecraft_economy # Your database name
+  username: root
+  password: your_password # Your MySQL password
+
+# Plugin Options
+options:
+  # Prefix for messages. Supports legacy color codes (&) and hex color codes (<##RRGGBB>).
+  # Note: The gradient in Skript is complex to replicate perfectly.
+  # This will translate each hex code individually.
+  prefix: "§9§lGELDSYSTEM §8• §7"
+  noperm: "§9§lGELDSYSTEM §8• §cDu hast keine Rechte dafür§8!"
