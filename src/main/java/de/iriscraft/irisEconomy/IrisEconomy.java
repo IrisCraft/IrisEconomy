@@ -23,6 +23,8 @@ public final class IrisEconomy extends JavaPlugin {
     public static String prefix;
     public static String noPermMessage;
 
+    private IEconomyAPI economyAPI; // <-- DIESE ZEILE FEHLT!
+
     @Override
     public void onEnable() {
         instance = this;
@@ -105,6 +107,11 @@ public final class IrisEconomy extends JavaPlugin {
                 });
             });
         }, 0L, 2 * 20L); // 0L delay, 2 * 20L ticks (2 seconds)
+    }
+
+    // <-- DIESE METHODE FEHLT KOMPLETT! -->
+    public IEconomyAPI getEconomyAPI() {
+        return economyAPI;
     }
 
     public static IrisEconomy getInstance() {
